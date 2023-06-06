@@ -1,0 +1,10 @@
+---
+version: "3.9"
+services: 
+networks:
+  my-net:
+    ipam:
+      driver: "bridge"
+      config:
+        - subnet: 192.168.0.0/16
+

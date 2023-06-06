@@ -1,0 +1,3 @@
+FROM scratch
+LABEL author=krishna
+LABEL month=june
